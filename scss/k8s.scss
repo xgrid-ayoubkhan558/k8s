@@ -636,31 +636,21 @@
      position: relative;
  }
 
- .navbar .nav-logos .navbar-brand::after {
-     content: "";
-     display: block;
+ .navbar .nav-logos .hr-line {
+     display: flex;
+     align-items: center;
+     justify-content: center;
      width: 1px;
      height: 20px;
-     position: absolute;
-     top: -50%;
-     right: 0px;
      background: #8b8b8b;
-     transform: translateX(15px) translateY(-50%);
-     margin-top: 24px;
  }
 
  @media (min-width: 441px) {
-     .navbar .nav-logos .navbar-brand::after {
-         transform: translateX(20px) translateY(-50%);
-         margin-top: 34px;
-     }
+     .navbar .nav-logos .hr-line {}
  }
 
  @media (min-width: 1156px) {
-     .navbar .nav-logos .navbar-brand::after {
-         transform: translateX(20px) translateY(-50%);
-         margin-top: 10px;
-     }
+     .navbar .nav-logos .hr-line {}
  }
 
  .navbar .nav-logos img {

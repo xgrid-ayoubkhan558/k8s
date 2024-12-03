@@ -524,37 +524,21 @@ header.position-fixed {
   position: relative;
 }
 
-.navbar .nav-logos .navbar-brand::after {
-  content: "";
-  display: block;
+.navbar .nav-logos .hr-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 1px;
   height: 20px;
-  position: absolute;
-  top: -50%;
-  right: 0px;
   background: #8b8b8b;
-  -webkit-transform: translateX(15px) translateY(-50%);
-      -ms-transform: translateX(15px) translateY(-50%);
-          transform: translateX(15px) translateY(-50%);
-  margin-top: 24px;
 }
 
-@media (min-width: 441px) {
-  .navbar .nav-logos .navbar-brand::after {
-    -webkit-transform: translateX(20px) translateY(-50%);
-        -ms-transform: translateX(20px) translateY(-50%);
-            transform: translateX(20px) translateY(-50%);
-    margin-top: 34px;
-  }
-}
-@media (min-width: 1156px) {
-  .navbar .nav-logos .navbar-brand::after {
-    -webkit-transform: translateX(20px) translateY(-50%);
-        -ms-transform: translateX(20px) translateY(-50%);
-            transform: translateX(20px) translateY(-50%);
-    margin-top: 10px;
-  }
-}
 .navbar .nav-logos img {
   height: 15px;
 }
