@@ -498,6 +498,13 @@ section {
 
 /* NAVBAR */
 /* ======================= */
+header.position-fixed {
+  width: 100%;
+  z-index: 9999;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(7, 23, 37, 0.2901960784);
+          box-shadow: 0px 2px 10px 0px rgba(7, 23, 37, 0.2901960784);
+}
+
 .navbar .nav-logos {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -909,6 +909,24 @@
     <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 
     <script>
+        var headerEl = document.querySelector('header');
+        window.addEventListener('load', function () {
+            console.log('loaded');
+            console.log('loaded');
+        });
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 200) {
+                headerEl.classList.add('position-fixed');
+            } else {
+                headerEl.classList.remove('position-fixed');
+            }
+
+            console.log('Scrolling', window.scrollY);
+        });
+    </script>
+
+    <script>
         document.addEventListener("DOMContentLoaded", () => {
             ScrollOut({
                 // scrollingElement: '.animate'

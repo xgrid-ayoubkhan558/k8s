@@ -612,6 +612,12 @@
 
  /* NAVBAR */
  /* ======================= */
+ header.position-fixed {
+     width: 100%;
+     z-index: 9999;
+     box-shadow: 0px 2px 10px 0px #0717254a;
+ }
+
  .navbar {}
 
  .navbar .nav-logos {
