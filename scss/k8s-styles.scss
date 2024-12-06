@@ -560,7 +560,8 @@
      --bs-btn-padding-x: 24px;
      --bs-btn-padding-y: 14px;
      --bs-btn-font-size: 14px;
-     display: inline-flex;
+     max-width: fit-content;
+     display: flex;
      justify-content: center;
      align-items: center;
      gap: 16px;
