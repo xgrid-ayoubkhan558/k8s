@@ -249,14 +249,14 @@
  /* Base h3 Styles */
  h3,
  .h3 {
-     font-size: 28px;
+     font-size: 24px;
  }
 
  @media (min-width: 441px) {
 
      h3,
      .h3 {
-         font-size: 32px;
+         font-size: 26px;
      }
  }
 
@@ -264,7 +264,7 @@
 
      h3,
      .h3 {
-         font-size: 36px;
+         font-size: 30px;
      }
  }
 
@@ -272,7 +272,7 @@
 
      h3,
      .h3 {
-         font-size: 40px;
+         font-size: 34px;
      }
  }
 
@@ -740,7 +740,7 @@
  .hero {}
 
  .hero .hero-inner {
-     background-color: #1C3D58;
+     background-color: #000;
      background-image: linear-gradient(to bottom, #1C212D, #1C878F);
      background-image: url(./../img/bg-hero.svg);
      background-size: cover;

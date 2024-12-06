@@ -197,25 +197,25 @@ h2,
 /* Base h3 Styles */
 h3,
 .h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 @media (min-width: 441px) {
   h3,
   .h3 {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1156px) {
   h3,
   .h3 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 @media (min-width: 1441px) {
   h3,
   .h3 {
-    font-size: 40px;
+    font-size: 34px;
   }
 }
 /* Base h4 Styles */
@@ -620,7 +620,7 @@ header.position-fixed {
 /* HERO */
 /* ======================= */
 .hero .hero-inner {
-  background-color: #1C3D58;
+  background-color: #000;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1C212D), to(#1C878F));
   background-image: linear-gradient(to bottom, #1C212D, #1C878F);
   background-image: url(./../img/bg-hero.svg);
