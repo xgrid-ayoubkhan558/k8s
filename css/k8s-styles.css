@@ -1030,6 +1030,10 @@ header.position-fixed {
           transform: translateX(15px);
 }
 
+.footer .footer-certifications img {
+  width: 121px;
+}
+
 .footer .footer-social {
   display: -webkit-box;
   display: -ms-flexbox;

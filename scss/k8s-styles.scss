@@ -1193,7 +1193,9 @@
 
  .footer .footer-certifications {}
 
- .footer .footer-certifications .text-center {}
+ .footer .footer-certifications img {
+     width: 121px;
+ }
 
  .footer .footer-social {
      display: flex;
