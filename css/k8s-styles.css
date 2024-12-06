@@ -445,6 +445,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   gap: 16px;
+  line-height: 1;
 }
 
 @media (min-width: 441px) {
@@ -852,7 +853,7 @@ header.position-fixed {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 .industries .industry-card :nth-last-child(1) {
