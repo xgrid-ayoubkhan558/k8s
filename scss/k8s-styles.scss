@@ -580,7 +580,7 @@
  }
 
  .btn svg {
-     height: 12px;
+     height: 10px;
  }
 
  @media (min-width: 441px) {
@@ -599,6 +599,13 @@
      --bs-btn-border-color: #0A0A0A;
      --bs-btn-hover-bg: var(--primary-color);
      --bs-btn-hover-border-color: var(--primary-color);
+ }
+
+ :not(.btn-check)+.btn-dark:active,
+ :not(.btn-check)+.btn-dark:focus {
+     color: #fff;
+     background-color: #0A0A0A;
+     border-color: #0A0A0A;
  }
 
  .btn-success {
