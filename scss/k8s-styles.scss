@@ -553,6 +553,7 @@
  .btn {
      outline: none;
      border: 0;
+     overflow: hidden;
      box-shadow: none;
      --bs-btn-font-weight: 400;
      --bs-btn-border-radius: 0;
