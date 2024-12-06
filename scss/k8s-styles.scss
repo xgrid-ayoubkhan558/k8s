@@ -556,11 +556,7 @@
      --bs-btn-padding-x: 24px;
      --bs-btn-padding-y: 14px;
      --bs-btn-font-size: 14px;
-     display: -webkit-inline-box;
-     display: -ms-inline-flexbox;
      display: inline-flex;
-     -webkit-box-align: center;
-     -ms-flex-align: center;
      align-items: center;
      gap: 16px;
  }
@@ -580,7 +576,7 @@
  }
 
  .btn svg {
-     height: 10px;
+     height: 9px;
  }
 
  @media (min-width: 441px) {
