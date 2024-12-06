@@ -551,6 +551,9 @@
 
  /* // BUTTONS  */
  .btn {
+    outline: none;
+    border: 0;
+    box-shadow: none;
      --bs-btn-font-weight: 400;
      --bs-btn-border-radius: 0;
      --bs-btn-padding-x: 24px;
