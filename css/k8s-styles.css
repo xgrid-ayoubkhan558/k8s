@@ -464,6 +464,7 @@ section {
   }
 }
 .btn svg {
+  vertical-align: middle;
   height: 9px;
 }
 
@@ -472,6 +473,11 @@ section {
     height: 12px;
   }
 }
+.btn span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .btn-light {
   --bs-btn-color: var(--heading-color);
 }
