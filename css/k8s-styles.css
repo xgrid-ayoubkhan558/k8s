@@ -432,42 +432,6 @@ section {
 
 /* // CTAs  */
 /* // BUTTONS  */
-.btn {
-  outline: none;
-  border: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  --bs-btn-font-weight: 400;
-  --bs-btn-border-radius: 0;
-}
-
-@media (min-width: 441px) {
-  .btn {
-    --bs-btn-padding-y: 14px;
-    --bs-btn-font-size: var(--font-size);
-  }
-}
-@media (min-width: 1156px) {
-  .btn {
-    --bs-btn-padding-y: 14px;
-    --bs-btn-font-size: var(--font-size);
-  }
-}
-.btn svg {
-  vertical-align: middle;
-  height: 9px;
-}
-
-@media (min-width: 441px) {
-  .btn svg {
-    height: 12px;
-  }
-}
-.btn span {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .btn-light {
   --bs-btn-color: var(--heading-color);
 }
