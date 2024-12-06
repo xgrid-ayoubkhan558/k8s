@@ -975,22 +975,22 @@ header.position-fixed {
   border: none;
   -webkit-filter: drop-shadow(0px 7px 21px rgba(92, 114, 230, 0.16));
           filter: drop-shadow(0px 7px 21px rgba(92, 114, 230, 0.16));
-  padding: 28px 28px;
+  padding: 34px 20px;
 }
 
 @media (min-width: 441px) {
   .card-form {
-    padding: 30px 30px;
+    padding: 44px 20px;
   }
 }
 @media (min-width: 1156px) {
   .card-form {
-    padding: 38px 60px;
+    padding: 54px 24px;
   }
 }
 @media (min-width: 1441px) {
   .card-form {
-    padding: 48px 90px;
+    padding: 64px 24px;
   }
 }
 /* Contact FORM end */
