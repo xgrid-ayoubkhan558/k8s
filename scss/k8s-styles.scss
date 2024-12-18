@@ -555,7 +555,7 @@
      border: 0;
      overflow: hidden;
      box-shadow: none;
-     --bs-btn-font-weight: 400;
+     --bs-btn-font-weight: 500;
      --bs-btn-border-radius: 0;
      --bs-btn-padding-x: 24px;
      --bs-btn-padding-y: 14px;
@@ -566,7 +566,7 @@
      align-items: center;
      gap: 16px;
      line-height: 0;
-     vertical-align: baseline;
+    //  vertical-align: baseline;
  }
 
  @media (min-width: 441px) {
